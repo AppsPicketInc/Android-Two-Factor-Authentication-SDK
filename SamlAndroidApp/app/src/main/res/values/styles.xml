@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MobiCloudActionBarTheme</item>
+        <item name="actionBarStyle">@style/MobiCloudActionBarTheme</item>
+    </style>
+
+    <style name="MobiCloudActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/blue</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/blue</item>
+    </style>
+
+</resources>

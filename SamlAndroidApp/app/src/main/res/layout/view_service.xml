@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    android:layout_margin="3dp"
+    android:background="@drawable/rounded"
+    >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="TODO"
+        />
+    <TextView
+        android:id="@+id/serviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:text="Description"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/serviceDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:layout_below="@id/serviceName"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:text="Description about service"
+        android:textSize="12sp"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/gray" />
+
+</RelativeLayout>

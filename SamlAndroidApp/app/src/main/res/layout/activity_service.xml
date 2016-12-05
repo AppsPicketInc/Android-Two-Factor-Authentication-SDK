@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main_swipe_refresh_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--
+    <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:visibility="gone"/>-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcom_msg"
+        android:textColor="@color/gray"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
+
+

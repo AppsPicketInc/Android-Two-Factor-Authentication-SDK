@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MobiCloud</string>
+    <string name="title_activity_service">AppsPicket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_web">WebActivity</string>
+    <!--<string name="i2fa_url">https://mobile.appspicket.com/module.php/extendtwofactorauthentication/ipragsaml.php</string>-->
+</resources>
