@@ -331,6 +331,7 @@ public class LoginActivity extends FragmentActivity {
                 @Override
                 public void onFailure(int statusCode, Exception e) {
                     showProgress(false);
+                    otpStep=false;
                     Toast.makeText(LoginActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
                 }
             });
@@ -368,10 +369,7 @@ public class LoginActivity extends FragmentActivity {
                 @Override
                 public void onFailure(int statusCode, Exception e) {
                     showProgress(false);
-                    if(e.getMessage().contains("User not verified"))
-                        Toast.makeText(LoginActivity.this,e.getMessage()+".Please signup!", Toast.LENGTH_LONG).show();
-                    else
-                        Toast.makeText(LoginActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this, e.getMessage()+". Please SignUp!", Toast.LENGTH_LONG).show();
                 }
             });
 
